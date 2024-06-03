@@ -1,0 +1,9 @@
+{
+  "getAll": {
+    "route": "/recipes",
+    "method": "GET",
+    "sql": "SELECT * FROM Recipes",
+    "auth_required": false,
+    "description": "Gets all Recipes"
+  }
+}

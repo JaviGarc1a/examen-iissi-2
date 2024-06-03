@@ -1,0 +1,9 @@
+{
+  "getAll": {
+    "route": "/ratings",
+    "method": "GET",
+    "sql": "SELECT * FROM Ratings",
+    "auth_required": false,
+    "description": "Gets all Ratings"
+  }
+}
